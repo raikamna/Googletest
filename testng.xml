@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name=".Baseclass"/>
-      <class name=".Test1"/>
+      <class name="Objectrepo.Baseclass"/>
+      <class name="Testcase.Test1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
