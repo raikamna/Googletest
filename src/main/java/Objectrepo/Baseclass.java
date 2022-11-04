@@ -13,7 +13,8 @@ public class Baseclass {
 	@BeforeClass
 	public void setUp() 
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\\Automation\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\chromedriver\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "E:\\Automation\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

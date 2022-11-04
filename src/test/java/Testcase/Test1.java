@@ -9,7 +9,7 @@ public class Test1 extends Baseclass {
 	
 	@Test(priority=1)
 	public void verifygooglesearchprocess() throws InterruptedException {
-		driver.get(baseURL);
+		//driver.get(baseURL);
 		
 		WebElement l= driver.findElement(By.name("q"));
 	 	l.sendKeys("Amazon");
