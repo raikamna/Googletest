@@ -5,6 +5,7 @@
     <classes>
       <class name="Testcase.Test1">
         <methods>
+          <include name="verifygooglesearchprocess"/>
           <include name="setUp"/>
           <include name="clickOnSearchedUrl"/>
           <include name="down"/>

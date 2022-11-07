@@ -1,4 +1,6 @@
 package Testcase;
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -8,7 +10,7 @@ import Objectrepo.Baseclass;
 public class Test1 extends Baseclass {
 	
 	@Test(priority=1)
-	public void verifygooglesearchprocess() throws InterruptedException {
+	public void verifygooglesearchprocess() throws InterruptedException, IOException {
 		driver.get(baseURL);
 		
 		WebElement l= driver.findElement(By.name("q"));
