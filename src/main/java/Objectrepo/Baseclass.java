@@ -17,10 +17,6 @@ public class Baseclass {
 	@BeforeClass
 	public void setUp() 
 	{
-		//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\chromedriver\\chromedriver.exe");
-		//System.setProperty("webdriver.chrome.driver", "E:\\Automation\\chromedriver.exe");
-      // driver = new ChromeDriver();
-       //driver.manage().window().maximize();
 		ChromeOptions chromeOptions = new ChromeOptions();
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver(chromeOptions);
